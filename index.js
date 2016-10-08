@@ -4,7 +4,7 @@ const {BrowserWindow} = electron;
 
 let mainWindow;
 
-app.On('ready', () => {
+app.on('ready', () => {
     mainWindow = new BrowserWindow({
         width: 1280,
         height: 720
