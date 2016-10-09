@@ -9,7 +9,14 @@ Demo Repo for Electron Demo at Northern Virginia Code Camp Fall 2016
   npm install electron-prebuilt -g
   ```
 
-To run the demos, clone the repository, and switch to the branches in order.
+To run the demos, clone the repository, and check out the branches in order (you may need to use git fetch to grab the branches before you can check them out):
+
+ - 1-Start
+ - 2-AddIndexFiles
+ - 3-HelloWorld
+ - 4-NewWindow
+ - 5-ContextMenu
+ - 6-Screenshot
 
 I recommend using [Visual Studio Code](https://code.visualstudio.com/) for editing. 
 
