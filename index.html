@@ -17,9 +17,9 @@
         menu.append(new MenuItem({label: 'Check Me!', type: 'checkbox', checked: true}));
 
         window.addEventListener('contextmenu', (e) => {
-        e.preventDefault()
-        menu.popup(remote.getCurrentWindow())
-        }, false)
+            e.preventDefault()
+            menu.popup(remote.getCurrentWindow())
+        }, false);
 
         //Menu.setApplicationMenu(menu);
     </script>
